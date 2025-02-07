@@ -695,10 +695,10 @@ export class ProductService {
     //   }
     // },
     {
-      name: '45 Deg Elbow Fittings',
+      name: 'Elbow 45 Deg - Threaded/SW',
       categoryName: 'FORGED FITTINGS',
       subCategory: ['45 Deg Elbow Fittings'],
-        productCode: 'ADAPTIX-FF-45E',
+        productCode: 'Adaptix-FF-EL-45-THR/SW',
         mainImage: 'assets/product/FORGED FITTINGS/45 elbow.png',
       otherImages: [
       ],
@@ -710,10 +710,10 @@ export class ProductService {
       }
   },
   {
-      name: '90 Deg Elbow Fittings',
+      name: 'Elbow 90 Deg - Threaded/SW',
       categoryName: 'FORGED FITTINGS',
       subCategory: ['90 Deg Elbow Fittings'],
-        productCode: 'ADAPTIX-FF-90E',
+        productCode: 'Adaptix-FF-EL-9O-THR/SW',
         mainImage: 'assets/product/FORGED FITTINGS/90 elbow.png',
       otherImages: [
       ],
@@ -725,10 +725,10 @@ export class ProductService {
       }
   },  
   {
-      name: 'Union',
+      name: 'Union - Threaded/SW ',
       categoryName: 'FORGED FITTINGS',
       subCategory: ['Union'],
-        productCode: 'ADAPTIX-FF-U',
+        productCode: 'Adaptix-FF-U-THR/SW',
         mainImage: 'assets/product/FORGED FITTINGS/union.png',
       otherImages: [
       ],
@@ -739,56 +739,56 @@ export class ProductService {
         'Size': '1/2" NB to 24" NB',
       }
   },
-  {
-    name: 'Barrel Nipple',
-    categoryName: 'FORGED FITTINGS', 
-    subCategory: ['Barrel Nipple'],
-    productCode: 'ADAPTIX-FF-BN',
-    mainImage: 'assets/product/FORGED FITTINGS/Barrel Nipple.png',
-    otherImages: [
-    ],
-    description: 'Heavy-duty forged barrel nipple featuring seamless construction and precise threading. Manufactured from high-grade materials for superior pressure and temperature resistance. Ideal for connecting pipes in high-pressure applications.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
-  },
-  {
-    name: 'Swage Nipple',
-    categoryName: 'FORGED FITTINGS',
-    subCategory: ['Swage Nipple'], 
-    productCode: 'ADAPTIX-FF-SN',
-    mainImage: 'assets/product/FORGED FITTINGS/Swage Nipple.png',
-    otherImages: [
-    ],
-    description: 'Precision-engineered swage nipple designed for size reduction in piping systems. Features concentric or eccentric reduction with high-quality threading and superior flow characteristics. Ideal for high-pressure industrial applications.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
-  },
-  {
-    name: 'Bushing',
-    categoryName: 'FORGED FITTINGS',
-    subCategory: ['Bushing'],
-    productCode: 'ADAPTIX-FF-B',
-    mainImage: 'assets/product/FORGED FITTINGS/Bushing.png',
-    otherImages: [
-    ],
-    description: 'High-quality forged bushing fitting manufactured from premium grade materials. Features precision-machined threads and excellent pressure handling capabilities. Ideal for size reduction applications in high-pressure piping systems.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
-},
+  // {
+  //   name: 'Barrel Nipple',
+  //   categoryName: 'FORGED FITTINGS', 
+  //   subCategory: ['Barrel Nipple'],
+  //   productCode: 'ADAPTIX-FF-BN',
+  //   mainImage: 'assets/product/FORGED FITTINGS/Barrel Nipple.png',
+  //   otherImages: [
+  //   ],
+  //   description: 'Heavy-duty forged barrel nipple featuring seamless construction and precise threading. Manufactured from high-grade materials for superior pressure and temperature resistance. Ideal for connecting pipes in high-pressure applications.',
+  //   specifications: {
+  //     'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+  //     'End Connections': 'PL',
+  //     'Size': '1/2" NB to 24" NB',
+  //   }
+  // },
+  // {
+  //   name: 'Swage Nipple',
+  //   categoryName: 'FORGED FITTINGS',
+  //   subCategory: ['Swage Nipple'], 
+  //   productCode: 'ADAPTIX-FF-SN',
+  //   mainImage: 'assets/product/FORGED FITTINGS/Swage Nipple.png',
+  //   otherImages: [
+  //   ],
+  //   description: 'Precision-engineered swage nipple designed for size reduction in piping systems. Features concentric or eccentric reduction with high-quality threading and superior flow characteristics. Ideal for high-pressure industrial applications.',
+  //   specifications: {
+  //     'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+  //     'End Connections': 'PL',
+  //     'Size': '1/2" NB to 24" NB',
+  //   }
+  // },
+//   {
+//     name: 'Bushing',
+//     categoryName: 'FORGED FITTINGS',
+//     subCategory: ['Bushing'],
+//     productCode: 'ADAPTIX-FF-B',
+//     mainImage: 'assets/product/FORGED FITTINGS/Bushing.png',
+//     otherImages: [
+//     ],
+//     description: 'High-quality forged bushing fitting manufactured from premium grade materials. Features precision-machined threads and excellent pressure handling capabilities. Ideal for size reduction applications in high-pressure piping systems.',
+//     specifications: {
+//       'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+//       'End Connections': 'PL',
+//       'Size': '1/2" NB to 24" NB',
+//     }
+// },
 {
-    name: 'Forged Tee',
+    name: 'Tee - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Forged Tee'],
-    productCode: 'ADAPTIX-FF-FT',
+    productCode: 'Adaptix-FF-T-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/Forged Tee.png',
     otherImages: [
     ],
@@ -800,10 +800,10 @@ export class ProductService {
     }
   },
   {
-    name: 'Equal Tee Fittings',
+    name: 'Tee Lateral 45 - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Equal Tee Fittings'],
-    productCode: 'ADAPTIX-FF-ET',
+    productCode: 'Adaptix-FF-TL-45-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/Equal Tee Fittings.png',
     otherImages: [
     ],
@@ -815,10 +815,10 @@ export class ProductService {
     }
 },
 {
-    name: 'Reducing Tee Fittings',
+    name: 'Reduce Coupling - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Reducing Tee Fittings'],
-    productCode: 'ADAPTIX-FF-RT',
+    productCode: 'Adaptix-FF-RC-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/Reducing Tee.png',
     otherImages: [
     ],
@@ -830,10 +830,10 @@ export class ProductService {
     }
 },
 {
-    name: 'End Cap',
+    name: 'Cap - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['End Cap'],
-    productCode: 'ADAPTIX-FF-EC',
+    productCode: 'Adaptix-FF-CP-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/cap.png',
     otherImages: [
     ],
@@ -845,10 +845,10 @@ export class ProductService {
     }
 },
 {
-    name: 'Cross',
+    name: 'Cross - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Cross'],
-    productCode: 'ADAPTIX-FF-C',
+    productCode: 'Adaptix-FF-CR-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/Cross.png',
     otherImages: [
     ],
@@ -860,10 +860,10 @@ export class ProductService {
     }
 },
 {
-    name: 'Plug',
+    name: 'Plug - Round - Threaded/Square',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Plug'],
-    productCode: 'ADAPTIX-FF-P',
+    productCode: 'Adaptix-FF-PLRO-THR/PLSQ-THR',
     mainImage: 'assets/product/FORGED FITTINGS/Plug.png',
     otherImages: [
     ],
@@ -874,26 +874,26 @@ export class ProductService {
       'Size': '1/2" NB to 24" NB',
     }
 },
+// {
+//     name: 'Coupling',
+//     categoryName: 'FORGED FITTINGS',
+//     subCategory: ['Coupling'],
+//     productCode: 'ADAPTIX-FF-C',
+//     mainImage: 'assets/product/FORGED FITTINGS/Coupling.png',
+//     otherImages: [
+//     ],
+//     description: 'Standard coupling fitting engineered for straight pipe connections. Provides reliable joining solution with maximum pressure integrity.',
+//     specifications: {
+//       'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+//       'End Connections': 'PL',
+//       'Size': '1/2" NB to 24" NB',
+//     }
+// },
 {
-    name: 'Coupling',
-    categoryName: 'FORGED FITTINGS',
-    subCategory: ['Coupling'],
-    productCode: 'ADAPTIX-FF-C',
-    mainImage: 'assets/product/FORGED FITTINGS/Coupling.png',
-    otherImages: [
-    ],
-    description: 'Standard coupling fitting engineered for straight pipe connections. Provides reliable joining solution with maximum pressure integrity.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
-},
-{
-    name: 'Full Coupling',
+    name: 'Full Coupling - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Full Coupling'],
-    productCode: 'ADAPTIX-FF-FC',
+    productCode: 'Adaptix-FF-FC-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/Coupling.png',
     otherImages: [
     ],
@@ -905,10 +905,10 @@ export class ProductService {
     }
 },
 {
-    name: 'Half Coupling',
+    name: 'Half Coupling - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Half Coupling'],
-    productCode: 'ADAPTIX-FF-HC',
+    productCode: 'Adaptix-FF-HC-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/Coupling.png',
     otherImages: [
     ],
@@ -919,26 +919,26 @@ export class ProductService {
       'Size': '1/2" NB to 24" NB',
     }
 },
+// {
+//     name: 'Reducing Coupling',
+//     categoryName: 'FORGED FITTINGS',
+//     subCategory: ['Reducing Coupling'],
+//     productCode: 'ADAPTIX-FF-RC',
+//     mainImage: 'assets/product/FORGED FITTINGS/reduce coupling.png',
+//     otherImages: [
+//     ],
+//     description: 'Precision-engineered reducing coupling for connecting pipes of different sizes. Features smooth internal transition for optimal flow characteristics.',
+//     specifications: {
+//       'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+//       'End Connections': 'PL',
+//       'Size': '1/2" NB to 24" NB',
+//     }
+// },
 {
-    name: 'Reducing Coupling',
-    categoryName: 'FORGED FITTINGS',
-    subCategory: ['Reducing Coupling'],
-    productCode: 'ADAPTIX-FF-RC',
-    mainImage: 'assets/product/FORGED FITTINGS/reduce coupling.png',
-    otherImages: [
-    ],
-    description: 'Precision-engineered reducing coupling for connecting pipes of different sizes. Features smooth internal transition for optimal flow characteristics.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
-},
-{
-    name: 'Boss',
+    name: 'Boss - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Boss'],
-    productCode: 'ADAPTIX-FF-B',
+    productCode: 'Adaptix-FF-B-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/Boss.png',
     otherImages: [
     ],
