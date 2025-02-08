@@ -703,11 +703,11 @@ export class ProductService {
       otherImages: [
       ],
       description: 'High-quality forged 45-degree elbow fitting manufactured for optimal flow direction change. Features precision-engineered angles and smooth internal surfaces for minimal flow restriction. Ideal for applications requiring 45-degree directional changes in high-pressure systems.',
-      specifications: {
-        'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-        'End Connections': 'PL',
-        'Size': '1/2" NB to 24" NB',
-      }
+      // specifications: {
+      //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+      //   'End Connections': 'PL',
+      //   'Size': '1/2" NB to 24" NB',
+      // }
   },
   {
       name: 'Elbow 90 Deg - Threaded/SW',
@@ -718,11 +718,11 @@ export class ProductService {
       otherImages: [
       ],
       description: 'Heavy-duty forged 90-degree elbow designed for right-angle flow direction changes. Manufactured with reinforced walls for maximum pressure resistance and durability. Perfect for tight space installations requiring 90-degree turns.',
-      specifications: {
-        'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-        'End Connections': 'PL',
-        'Size': '1/2" NB to 24" NB',
-      }
+      // specifications: {
+      //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+      //   'End Connections': 'PL',
+      //   'Size': '1/2" NB to 24" NB',
+      // }
   },  
   {
       name: 'Union - Threaded/SW ',
@@ -733,11 +733,11 @@ export class ProductService {
       otherImages: [
       ],
       description: 'Premium forged union fitting providing secure, leak-tight pipe connections. Features precision-machined threads and sealing surfaces for reliable joining of pipe sections. Designed for easy assembly and disassembly while maintaining system integrity.',
-      specifications: {
-        'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-        'End Connections': 'PL',
-        'Size': '1/2" NB to 24" NB',
-      }
+      // specifications: {
+      //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+      //   'End Connections': 'PL',
+      //   'Size': '1/2" NB to 24" NB',
+      // }
   },
   // {
   //   name: 'Barrel Nipple',
@@ -793,11 +793,11 @@ export class ProductService {
     otherImages: [
     ],
     description: 'Heavy-duty forged tee fitting designed for high-pressure applications. Features three-way flow distribution with reinforced wall thickness. Manufactured using advanced forging techniques for superior strength and reliability.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
   },
   {
     name: 'Tee Lateral 45 - Threaded/SW',
@@ -808,11 +808,11 @@ export class ProductService {
     otherImages: [
     ],
     description: 'High-pressure equal tee fitting designed for uniform flow distribution. Features precision-forged construction with equal-sized outlets. Ideal for applications requiring three-way flow division or combination.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
 },
 {
     name: 'Reduce Coupling - Threaded/SW',
@@ -823,11 +823,11 @@ export class ProductService {
     otherImages: [
     ],
     description: 'Heavy-duty reducing tee fitting engineered for applications requiring different outlet sizes. Provides optimal flow characteristics with reduced branch connection.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
 },
 {
     name: 'Cap - Threaded/SW',
@@ -838,11 +838,11 @@ export class ProductService {
     otherImages: [
     ],
     description: 'Robust forged end cap designed for reliable line termination. Features thick-wall construction for maximum pressure retention and safety.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
 },
 {
     name: 'Cross - Threaded/SW',
@@ -853,11 +853,11 @@ export class ProductService {
     otherImages: [
     ],
     description: 'Four-way cross fitting manufactured for multi-directional flow applications. Ensures balanced pressure distribution across all outlets.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
 },
 {
     name: 'Plug - Round - Threaded/Square',
@@ -868,11 +868,11 @@ export class ProductService {
     otherImages: [
     ],
     description: 'Solid forged plug designed for secure system closure. Features precision threading and hexagonal head for reliable installation.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
 },
 // {
 //     name: 'Coupling',
@@ -898,11 +898,11 @@ export class ProductService {
     otherImages: [
     ],
     description: 'Full-length coupling designed for maximum engagement length. Ensures superior connection strength and leak-proof performance.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
 },
 {
     name: 'Half Coupling - Threaded/SW',
@@ -913,11 +913,11 @@ export class ProductService {
     otherImages: [
     ],
     description: 'Compact half-length coupling for space-constrained applications. Provides reliable connection in reduced installation spaces.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
 },
 // {
 //     name: 'Reducing Coupling',
@@ -943,11 +943,11 @@ export class ProductService {
     otherImages: [
     ],
     description: 'Heavy-duty boss fitting designed for branch connections. Provides reinforced mounting point for high-pressure applications.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
   },
   {
     name: 'Slip On Flanges',
