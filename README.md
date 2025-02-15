@@ -29,6 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ng deploy --base-href "https://neomat.co.in"
 ng build --base-href "https://neomat.co.in"
+ng build --base-href "https://tuleshghelani.github.io/neomat"
 
 ng deploy --base-href "https://adaptixvalves.co.uk"
 ng build --base-href "https://adaptixvalves.co.uk"
