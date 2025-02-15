@@ -695,259 +695,259 @@ export class ProductService {
     //   }
     // },
     {
-      name: '45 Deg Elbow Fittings',
+      name: 'Elbow 45 Deg - Threaded/SW',
       categoryName: 'FORGED FITTINGS',
       subCategory: ['45 Deg Elbow Fittings'],
-        productCode: 'ADAPTIX-FF-45E',
+        productCode: 'Adaptix-FF-EL-45-THR/SW',
         mainImage: 'assets/product/FORGED FITTINGS/45 elbow.png',
       otherImages: [
       ],
       description: 'High-quality forged 45-degree elbow fitting manufactured for optimal flow direction change. Features precision-engineered angles and smooth internal surfaces for minimal flow restriction. Ideal for applications requiring 45-degree directional changes in high-pressure systems.',
-      specifications: {
-        'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-        'End Connections': 'PL',
-        'Size': '1/2" NB to 24" NB',
-      }
+      // specifications: {
+      //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+      //   'End Connections': 'PL',
+      //   'Size': '1/2" NB to 24" NB',
+      // }
   },
   {
-      name: '90 Deg Elbow Fittings',
+      name: 'Elbow 90 Deg - Threaded/SW',
       categoryName: 'FORGED FITTINGS',
       subCategory: ['90 Deg Elbow Fittings'],
-        productCode: 'ADAPTIX-FF-90E',
+        productCode: 'Adaptix-FF-EL-9O-THR/SW',
         mainImage: 'assets/product/FORGED FITTINGS/90 elbow.png',
       otherImages: [
       ],
       description: 'Heavy-duty forged 90-degree elbow designed for right-angle flow direction changes. Manufactured with reinforced walls for maximum pressure resistance and durability. Perfect for tight space installations requiring 90-degree turns.',
-      specifications: {
-        'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-        'End Connections': 'PL',
-        'Size': '1/2" NB to 24" NB',
-      }
+      // specifications: {
+      //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+      //   'End Connections': 'PL',
+      //   'Size': '1/2" NB to 24" NB',
+      // }
   },  
   {
-      name: 'Union',
+      name: 'Union - Threaded/SW ',
       categoryName: 'FORGED FITTINGS',
       subCategory: ['Union'],
-        productCode: 'ADAPTIX-FF-U',
+        productCode: 'Adaptix-FF-U-THR/SW',
         mainImage: 'assets/product/FORGED FITTINGS/union.png',
       otherImages: [
       ],
       description: 'Premium forged union fitting providing secure, leak-tight pipe connections. Features precision-machined threads and sealing surfaces for reliable joining of pipe sections. Designed for easy assembly and disassembly while maintaining system integrity.',
-      specifications: {
-        'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-        'End Connections': 'PL',
-        'Size': '1/2" NB to 24" NB',
-      }
+      // specifications: {
+      //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+      //   'End Connections': 'PL',
+      //   'Size': '1/2" NB to 24" NB',
+      // }
   },
-  {
-    name: 'Barrel Nipple',
-    categoryName: 'FORGED FITTINGS', 
-    subCategory: ['Barrel Nipple'],
-    productCode: 'ADAPTIX-FF-BN',
-    mainImage: 'assets/product/FORGED FITTINGS/Barrel Nipple.png',
-    otherImages: [
-    ],
-    description: 'Heavy-duty forged barrel nipple featuring seamless construction and precise threading. Manufactured from high-grade materials for superior pressure and temperature resistance. Ideal for connecting pipes in high-pressure applications.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
-  },
-  {
-    name: 'Swage Nipple',
-    categoryName: 'FORGED FITTINGS',
-    subCategory: ['Swage Nipple'], 
-    productCode: 'ADAPTIX-FF-SN',
-    mainImage: 'assets/product/FORGED FITTINGS/Swage Nipple.png',
-    otherImages: [
-    ],
-    description: 'Precision-engineered swage nipple designed for size reduction in piping systems. Features concentric or eccentric reduction with high-quality threading and superior flow characteristics. Ideal for high-pressure industrial applications.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
-  },
-  {
-    name: 'Bushing',
-    categoryName: 'FORGED FITTINGS',
-    subCategory: ['Bushing'],
-    productCode: 'ADAPTIX-FF-B',
-    mainImage: 'assets/product/FORGED FITTINGS/Bushing.png',
-    otherImages: [
-    ],
-    description: 'High-quality forged bushing fitting manufactured from premium grade materials. Features precision-machined threads and excellent pressure handling capabilities. Ideal for size reduction applications in high-pressure piping systems.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
-},
+  // {
+  //   name: 'Barrel Nipple',
+  //   categoryName: 'FORGED FITTINGS', 
+  //   subCategory: ['Barrel Nipple'],
+  //   productCode: 'ADAPTIX-FF-BN',
+  //   mainImage: 'assets/product/FORGED FITTINGS/Barrel Nipple.png',
+  //   otherImages: [
+  //   ],
+  //   description: 'Heavy-duty forged barrel nipple featuring seamless construction and precise threading. Manufactured from high-grade materials for superior pressure and temperature resistance. Ideal for connecting pipes in high-pressure applications.',
+  //   specifications: {
+  //     'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+  //     'End Connections': 'PL',
+  //     'Size': '1/2" NB to 24" NB',
+  //   }
+  // },
+  // {
+  //   name: 'Swage Nipple',
+  //   categoryName: 'FORGED FITTINGS',
+  //   subCategory: ['Swage Nipple'], 
+  //   productCode: 'ADAPTIX-FF-SN',
+  //   mainImage: 'assets/product/FORGED FITTINGS/Swage Nipple.png',
+  //   otherImages: [
+  //   ],
+  //   description: 'Precision-engineered swage nipple designed for size reduction in piping systems. Features concentric or eccentric reduction with high-quality threading and superior flow characteristics. Ideal for high-pressure industrial applications.',
+  //   specifications: {
+  //     'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+  //     'End Connections': 'PL',
+  //     'Size': '1/2" NB to 24" NB',
+  //   }
+  // },
+//   {
+//     name: 'Bushing',
+//     categoryName: 'FORGED FITTINGS',
+//     subCategory: ['Bushing'],
+//     productCode: 'ADAPTIX-FF-B',
+//     mainImage: 'assets/product/FORGED FITTINGS/Bushing.png',
+//     otherImages: [
+//     ],
+//     description: 'High-quality forged bushing fitting manufactured from premium grade materials. Features precision-machined threads and excellent pressure handling capabilities. Ideal for size reduction applications in high-pressure piping systems.',
+//     specifications: {
+//       'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+//       'End Connections': 'PL',
+//       'Size': '1/2" NB to 24" NB',
+//     }
+// },
 {
-    name: 'Forged Tee',
+    name: 'Tee - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Forged Tee'],
-    productCode: 'ADAPTIX-FF-FT',
+    productCode: 'Adaptix-FF-T-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/Forged Tee.png',
     otherImages: [
     ],
     description: 'Heavy-duty forged tee fitting designed for high-pressure applications. Features three-way flow distribution with reinforced wall thickness. Manufactured using advanced forging techniques for superior strength and reliability.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
   },
   {
-    name: 'Equal Tee Fittings',
+    name: 'Tee Lateral 45 - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Equal Tee Fittings'],
-    productCode: 'ADAPTIX-FF-ET',
+    productCode: 'Adaptix-FF-TL-45-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/Equal Tee Fittings.png',
     otherImages: [
     ],
     description: 'High-pressure equal tee fitting designed for uniform flow distribution. Features precision-forged construction with equal-sized outlets. Ideal for applications requiring three-way flow division or combination.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
 },
 {
-    name: 'Reducing Tee Fittings',
+    name: 'Reduce Coupling - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Reducing Tee Fittings'],
-    productCode: 'ADAPTIX-FF-RT',
+    productCode: 'Adaptix-FF-RC-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/Reducing Tee.png',
     otherImages: [
     ],
     description: 'Heavy-duty reducing tee fitting engineered for applications requiring different outlet sizes. Provides optimal flow characteristics with reduced branch connection.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
 },
 {
-    name: 'End Cap',
+    name: 'Cap - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['End Cap'],
-    productCode: 'ADAPTIX-FF-EC',
+    productCode: 'Adaptix-FF-CP-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/cap.png',
     otherImages: [
     ],
     description: 'Robust forged end cap designed for reliable line termination. Features thick-wall construction for maximum pressure retention and safety.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
 },
 {
-    name: 'Cross',
+    name: 'Cross - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Cross'],
-    productCode: 'ADAPTIX-FF-C',
+    productCode: 'Adaptix-FF-CR-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/Cross.png',
     otherImages: [
     ],
     description: 'Four-way cross fitting manufactured for multi-directional flow applications. Ensures balanced pressure distribution across all outlets.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
 },
 {
-    name: 'Plug',
+    name: 'Plug - Round - Threaded/Square',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Plug'],
-    productCode: 'ADAPTIX-FF-P',
+    productCode: 'Adaptix-FF-PLRO-THR/PLSQ-THR',
     mainImage: 'assets/product/FORGED FITTINGS/Plug.png',
     otherImages: [
     ],
     description: 'Solid forged plug designed for secure system closure. Features precision threading and hexagonal head for reliable installation.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
 },
+// {
+//     name: 'Coupling',
+//     categoryName: 'FORGED FITTINGS',
+//     subCategory: ['Coupling'],
+//     productCode: 'ADAPTIX-FF-C',
+//     mainImage: 'assets/product/FORGED FITTINGS/Coupling.png',
+//     otherImages: [
+//     ],
+//     description: 'Standard coupling fitting engineered for straight pipe connections. Provides reliable joining solution with maximum pressure integrity.',
+//     specifications: {
+//       'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+//       'End Connections': 'PL',
+//       'Size': '1/2" NB to 24" NB',
+//     }
+// },
 {
-    name: 'Coupling',
-    categoryName: 'FORGED FITTINGS',
-    subCategory: ['Coupling'],
-    productCode: 'ADAPTIX-FF-C',
-    mainImage: 'assets/product/FORGED FITTINGS/Coupling.png',
-    otherImages: [
-    ],
-    description: 'Standard coupling fitting engineered for straight pipe connections. Provides reliable joining solution with maximum pressure integrity.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
-},
-{
-    name: 'Full Coupling',
+    name: 'Full Coupling - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Full Coupling'],
-    productCode: 'ADAPTIX-FF-FC',
+    productCode: 'Adaptix-FF-FC-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/Coupling.png',
     otherImages: [
     ],
     description: 'Full-length coupling designed for maximum engagement length. Ensures superior connection strength and leak-proof performance.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
 },
 {
-    name: 'Half Coupling',
+    name: 'Half Coupling - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Half Coupling'],
-    productCode: 'ADAPTIX-FF-HC',
+    productCode: 'Adaptix-FF-HC-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/Coupling.png',
     otherImages: [
     ],
     description: 'Compact half-length coupling for space-constrained applications. Provides reliable connection in reduced installation spaces.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
 },
+// {
+//     name: 'Reducing Coupling',
+//     categoryName: 'FORGED FITTINGS',
+//     subCategory: ['Reducing Coupling'],
+//     productCode: 'ADAPTIX-FF-RC',
+//     mainImage: 'assets/product/FORGED FITTINGS/reduce coupling.png',
+//     otherImages: [
+//     ],
+//     description: 'Precision-engineered reducing coupling for connecting pipes of different sizes. Features smooth internal transition for optimal flow characteristics.',
+//     specifications: {
+//       'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+//       'End Connections': 'PL',
+//       'Size': '1/2" NB to 24" NB',
+//     }
+// },
 {
-    name: 'Reducing Coupling',
-    categoryName: 'FORGED FITTINGS',
-    subCategory: ['Reducing Coupling'],
-    productCode: 'ADAPTIX-FF-RC',
-    mainImage: 'assets/product/FORGED FITTINGS/reduce coupling.png',
-    otherImages: [
-    ],
-    description: 'Precision-engineered reducing coupling for connecting pipes of different sizes. Features smooth internal transition for optimal flow characteristics.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
-},
-{
-    name: 'Boss',
+    name: 'Boss - Threaded/SW',
     categoryName: 'FORGED FITTINGS',
     subCategory: ['Boss'],
-    productCode: 'ADAPTIX-FF-B',
+    productCode: 'Adaptix-FF-B-THR/SW',
     mainImage: 'assets/product/FORGED FITTINGS/Boss.png',
     otherImages: [
     ],
     description: 'Heavy-duty boss fitting designed for branch connections. Provides reinforced mounting point for high-pressure applications.',
-    specifications: {
-      'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
-      'End Connections': 'PL',
-      'Size': '1/2" NB to 24" NB',
-    }
+    // specifications: {
+    //   'M.O.C': 'Stainless Steel / Carbon Steel / Alloy Steel / Nickel Alloy',
+    //   'End Connections': 'PL',
+    //   'Size': '1/2" NB to 24" NB',
+    // }
   },
   {
     name: 'Slip On Flanges',
@@ -1056,7 +1056,6 @@ export class ProductService {
     ],
     description: 'Premium PIPE FITTINGS male connector featuring precision-machined threads and sealing surface, designed for high-purity fluid handling systems. Provides reliable metal-to-metal seal with excellent resistance to vibration and thermal cycling.',
     specifications: {
-        'Model No,': '123456789',
         'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
         'End Connection Type': 'THREADED / WELDED',
         'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1073,7 +1072,6 @@ export class ProductService {
       ],
       description: 'High-precision PIPE FITTINGS female connector with expertly machined gland pocket, engineered for leak-tight connections in critical fluid systems. Features smooth bore design for optimal flow characteristics.',
       specifications: {
-        'Model No,': '123456789',
         'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
         'End Connection Type': 'THREADED / WELDED',
         'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1090,7 +1088,6 @@ export class ProductService {
       ],
       description: 'Precision-engineered PIPE FITTINGS gland designed for secure mechanical grip and reliable sealing. Features optimized geometry for proper compression and seal engagement, ensuring leak-free performance in demanding applications.',
       specifications: {
-        'Model No,': '123456789',
         'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
         'End Connection Type': 'THREADED / WELDED',
         'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1107,7 +1104,6 @@ export class ProductService {
     ],
     description: 'Precision-crafted 90-degree male elbow fitting with PIPE FITTINGS end connection, designed for space-efficient directional changes in high-purity fluid systems. Features smooth internal bore for optimal flow characteristics.',
       specifications: {
-        'Model No,': '123456789',
         'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
         'End Connection Type': 'THREADED / WELDED',
         'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1124,7 +1120,6 @@ export class ProductService {
       ],  
       description: 'High-performance PIPE FITTINGS union elbow providing 90-degree flow direction change with the convenience of union-style assembly. Ideal for systems requiring frequent maintenance or reconfiguration.',
       specifications: {
-        'Model No,': '123456789',
         'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
         'End Connection Type': 'THREADED / WELDED',
         'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1141,7 +1136,6 @@ export class ProductService {
       ],
       description: 'High-performance PIPE FITTINGS union tee fitting designed for three-way flow distribution in high-purity systems. Features precision-machined body with uniform flow paths and metal-to-metal sealing surfaces for consistent performance. Ideal for applications requiring frequent system modifications or maintenance.',
       specifications: {
-        'Model No,': '123456789',
         'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
         'End Connection Type': 'THREADED / WELDED',
         'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1158,7 +1152,6 @@ export class ProductService {
       ],
       description: 'Versatile PIPE FITTINGS union cross fitting providing four-way flow distribution with balanced flow characteristics. Engineered for multi-directional fluid handling in complex systems. Features precision-machined body and standardized end connections for maximum system flexibility.',
       specifications: {
-        'Model No,': '123456789',
         'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
         'End Connection Type': 'THREADED / WELDED',
         'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1175,7 +1168,6 @@ export class ProductService {
       ],  
       description: 'Specialized PIPE FITTINGS male run tee featuring straight-through flow path with branch connection. Designed for applications requiring minimal flow restriction in the main run with a secondary branch connection. Precision-machined for optimal flow characteristics and reliable sealing.',
       specifications: {
-        'Model No,': '123456789',
         'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
         'End Connection Type': 'THREADED / WELDED',
         'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1192,7 +1184,6 @@ export class ProductService {
       ],
       description: 'Advanced PIPE FITTINGS male branch tee designed with optimized flow geometry for branch-off applications. Features male thread branch connection with female run connections, ideal for instrument connections and sampling points. Ensures minimal pressure drop and uniform flow distribution.',
       specifications: {
-        'Model No,': '123456789',
         'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
         'End Connection Type': 'THREADED / WELDED',
         'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1209,7 +1200,6 @@ export class ProductService {
       ],
       description: 'Precision-engineered PIPE FITTINGS O-ring seat connector providing reliable sealing in high-purity applications. Features specially designed O-ring groove geometry for optimal compression and seal integrity. Ideal for applications requiring frequent assembly/disassembly with maintained sealing performance.',
       specifications: {
-        'Model No,': '123456789',
         'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
         'End Connection Type': 'THREADED / WELDED',
         'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1226,7 +1216,6 @@ export class ProductService {
       ],
       description: 'High-performance PIPE FITTINGS O-ring seat male connector combining thread sealing with O-ring technology. Features precision-machined male thread end and optimized O-ring groove design. Ensures reliable sealing in dynamic temperature and pressure conditions.',
       specifications: {
-        'Model No,': '123456789',
         'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
         'End Connection Type': 'THREADED / WELDED',
         'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1243,7 +1232,6 @@ export class ProductService {
       ],
       description: 'Premium PIPE FITTINGS union connector designed for joining tube sections with maximum reliability. Features symmetrical design with precision-machined sealing surfaces and robust body construction. Ideal for applications requiring frequent maintenance access or system modifications.',
       specifications: {
-        'Model No,': '123456789',
         'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
         'End Connection Type': 'THREADED / WELDED',
         'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1260,7 +1248,6 @@ export class ProductService {
       ],
       description: 'Precision-engineered PIPE FITTINGS tube socket providing secure tube termination and connection point. Features optimized bore design for smooth flow transition and reliable tube grip. Manufactured with exact tolerances for consistent assembly and sealing performance.',
       specifications: {
-        'Model No,': '123456789',
         'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
         'End Connection Type': 'THREADED / WELDED',
         'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1277,7 +1264,6 @@ export class ProductService {
       ],
       description: 'Precision-engineered PIPE FITTINGS nut designed for secure and leak-tight connections in high-pressure systems. Features optimized thread engagement and sealing surfaces for consistent performance across a wide range of applications.',
       specifications: {
-        'Model No,': '123456789',
         'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
         'End Connection Type': 'THREADED / WELDED',
         'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1294,7 +1280,6 @@ export class ProductService {
       ],
       description: 'Precision-engineered PIPE FITTINGS nut designed for secure and leak-tight connections in high-pressure systems. Features optimized thread engagement and sealing surfaces for consistent performance across a wide range of applications.',
       specifications: {
-        'Model No,': '123456789',
         'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
         'End Connection Type': 'THREADED / WELDED',
         'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1311,7 +1296,6 @@ export class ProductService {
     ],
     description: 'High-precision PIPE FITTINGS gland engineered for critical fluid handling applications. Features proprietary surface finishing technology and optimized geometry for maximum sealing reliability. Designed with advanced anti-rotation features and precise dimensional control for consistent performance in ultra-high purity systems.',
     specifications: {
-      'Model No,': '123456789',
       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
       'End Connection Type': 'THREADED / WELDED',
       'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1328,7 +1312,6 @@ export class ProductService {
     ],
     description: 'Premium PIPE FITTINGS union tee featuring advanced flow optimization technology. Engineered with computational fluid dynamics-designed internal geometry for minimal pressure drop and uniform flow distribution. Ideal for high-purity gas distribution systems requiring precise flow control and contamination-free operation.',
     specifications: {
-      'Model No,': '123456789',
       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
       'End Connection Type': 'THREADED / WELDED',
       'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1345,7 +1328,6 @@ export class ProductService {
     ],
     description: 'Advanced PIPE FITTINGS union cross incorporating symmetrical flow path design for multi-directional fluid distribution. Features precision-machined internal passages with optimized flow geometry for balanced distribution and minimal turbulence. Engineered for high-purity semiconductor and analytical instrumentation applications.',
     specifications: {
-      'Model No,': '123456789',
       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
       'End Connection Type': 'THREADED / WELDED',
       'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1362,7 +1344,6 @@ export class ProductService {
     ],
     description: 'Premium grade PIPE FITTINGS male connector engineered for ultra-high purity applications. Features our proprietary surface finishing technology ensuring class-leading seal integrity and minimal particle generation. The innovative gland design provides exceptional radial alignment and prevents galling during repeated assembly cycles. Ideal for semiconductor, pharmaceutical, and critical gas delivery systems.',
     specifications: {
-      'Model No,': '123456789',
       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
       'End Connection Type': 'THREADED / WELDED',
       'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1379,7 +1360,6 @@ export class ProductService {
     ],
     description: 'State-of-the-art PIPE FITTINGS female connector featuring precision-machined sealing surfaces and our exclusive geometrical optimization for superior connector engagement. Enhanced thread profile ensures consistent sealing force distribution and prevents cold welding. Ideal for ultra-high purity gas systems, analytical instrumentation, and critical process applications.',
     specifications: {
-      'Model No,': '123456789',
       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
       'End Connection Type': 'THREADED / WELDED',
       'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1396,7 +1376,6 @@ export class ProductService {
     ],
     description: 'Advanced 90° PIPE FITTINGS union elbow incorporating our innovative flow-optimized geometry for minimal pressure drop and turbulence. Precision-machined from high-purity bar stock with controlled sulfur content for enhanced weldability. Features our proprietary internal polishing process ensuring exceptional surface smoothness and corrosion resistance.',
     specifications: {
-      'Model No,': '123456789',
       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
       'End Connection Type': 'THREADED / WELDED',
       'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1413,7 +1392,6 @@ export class ProductService {
     ],
     description: 'High-performance PIPE FITTINGS male elbow featuring our patented flow-optimization technology. Engineered with computational fluid dynamics analysis to minimize dead space and ensure uniform flow distribution. The precision-machined sealing surface incorporates our advanced geometry for enhanced gasket retention and leak-tight connections.',
     specifications: {
-      'Model No,': '123456789',
       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
       'End Connection Type': 'THREADED / WELDED',
       'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1430,7 +1408,6 @@ export class ProductService {
     ],
     description: 'Premium bulkhead union featuring our innovative panel-mount design for superior stability and alignment. Engineered with dual-sided sealing technology ensuring leak-tight connections on both faces. Enhanced thread profile and proprietary surface treatment provide exceptional resistance to vibration and thermal cycling.',
     specifications: {
-      'Model No,': '123456789',
       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
       'End Connection Type': 'THREADED / WELDED',
       'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1447,7 +1424,6 @@ export class ProductService {
     ],
     description: 'Ultra-high purity PIPE FITTINGS equal union featuring our symmetrical flow path design for optimal fluid dynamics. Incorporates dual-sided precision-machined sealing surfaces with our proprietary surface enhancement technology. Engineering-optimized hex flats provide superior wrench engagement and torque transfer during assembly.',
     specifications: {
-      'Model No,': '123456789',
       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
       'End Connection Type': 'THREADED / WELDED',
       'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1464,7 +1440,6 @@ export class ProductService {
     ],
     description: 'Premium male connector fitting designed for high-pressure fluid systems. Features precision-machined threads and optimized sealing geometry for reliable connections. Engineered for maximum flow efficiency and leak-tight performance.',
     specifications: {
-      'Model No,': '123456789',
       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
       'End Connection Type': 'THREADED / WELDED',
       'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1481,7 +1456,6 @@ export class ProductService {
     ],
     description: 'Premium male connector fitting designed for high-pressure fluid systems. Features precision-machined threads and optimized sealing geometry for reliable connections. Engineered for maximum flow efficiency and leak-tight performance.',
     specifications: {
-      'Model No,': '123456789',
       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
       'End Connection Type': 'THREADED / WELDED',
       'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1498,7 +1472,6 @@ export class ProductService {
     ],
     description: 'Premium male connector fitting designed for high-pressure fluid systems. Features precision-machined threads and optimized sealing geometry for reliable connections. Engineered for maximum flow efficiency and leak-tight performance.',
     specifications: {
-      'Model No,': '123456789',
       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
       'End Connection Type': 'THREADED / WELDED',
       'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
@@ -1515,7 +1488,6 @@ export class ProductService {
     ],
     description: 'Premium male connector fitting designed for high-pressure fluid systems. Features precision-machined threads and optimized sealing geometry for reliable connections. Engineered for maximum flow efficiency and leak-tight performance.',
     specifications: {
-      'Model No,': '123456789',
       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL /HASTELLOY / INCONEL / TITANIUM',
       'End Connection Type': 'THREADED / WELDED',
       'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
