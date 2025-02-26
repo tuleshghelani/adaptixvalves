@@ -40,10 +40,14 @@ export class ProductService {
       name: 'I/C CASTING FITTINGS',
       isExpanded: true,
       subProducts: [
-        '45 Elbow', '90 Elbow', 'Tee', 'Cross',
-        'Elbow Reducing', 'Reducing Cross', 'Reducing Tee', 'Y Stainer 45',
-        'Street Elbow 90', 'Street Elbow 45', 'Street TEE',
-        'Coupling', 'Reduce Coupling','CAP', 'Bends'
+        'ELBOW - 45 - F/F', 'ELBOW - 90 - F/F', 'Tee', 'Equal Cross',
+        // 'Elbow Reducing', 'Reducing Cross', 
+        'Reducing Tee', 'Y Tee',
+        'Conical Union F/F','Union F/F PTFE Seal' , 'Conical Union F/M', 'Union F/M PTFE Seal', 'Hex Nipple', 'Hex Reduce Nipple', 'Male Weld Hex Nipple', 'Reducing Socket',
+        
+
+        // 'Street Elbow 90', 'Street Elbow 45', 'Street TEE',
+        // 'Coupling', 'Reduce Coupling','CAP', 'Bends'
       ]
     },
     // {
@@ -257,30 +261,30 @@ export class ProductService {
     },
     
     {
-      name: '45 Elbow',
+      name: 'ELBOW - 45 - F/F',
       categoryName: 'I/C CASTING FITTINGS',
-      subCategory: ['45 Elbow'],
-      productCode: 'ADAPTIX-IC-EL45',
+      subCategory: ['ELBOW - 45 - F/F'],
+      productCode: 'ADAPTIX-ICF-EL-45°-F/F',
       mainImage: 'assets/product/IC_CASTING_FITTINGS/45 Elbow.png',
       otherImages: [
       ],
-      description: 'High-precision 45-degree elbow fitting optimized for moderate flow direction changes in industrial and commercial casting systems. Features seamless construction with uniform wall thickness and precise 45-degree angle consistency. Engineered for minimal flow resistance and pressure drop in I/C applications.',
+      // description: 'High-precision 45-degree elbow fitting optimized for moderate flow direction changes in industrial and commercial casting systems. Features seamless construction with uniform wall thickness and precise 45-degree angle consistency. Engineered for minimal flow resistance and pressure drop in I/C applications.',
       specifications: {
-          'Size Range': '1/8" to 4"',
+          'Size Range': '1/8" to 3"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
       }
     },
     {
-      name: '90 Elbow',
+      name: 'ELBOW - 90 - F/F',
       categoryName: 'I/C CASTING FITTINGS',
-      subCategory: ['90 Elbow'],
-      productCode: 'ADAPTIX-IC-EL90',
+      subCategory: ['ELBOW - 90 - F/F'],
+      productCode: 'ADAPTIX-ICF-EL-90°-F/F',
       mainImage: 'assets/product/IC_CASTING_FITTINGS/90 Elbow.png',
       otherImages: [
       ],
-      description: 'High-precision 90-degree elbow fitting designed for right-angle flow direction changes in industrial and commercial applications. Features seamless construction with uniform wall thickness and precise 90-degree angle consistency. Engineered for minimal flow resistance and pressure drop in I/C casting systems.',
+      // description: 'High-precision 90-degree elbow fitting designed for right-angle flow direction changes in industrial and commercial applications. Features seamless construction with uniform wall thickness and precise 90-degree angle consistency. Engineered for minimal flow resistance and pressure drop in I/C casting systems.',
       specifications: {
           'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
@@ -292,11 +296,11 @@ export class ProductService {
       name: 'Tee',
       categoryName: 'I/C CASTING FITTINGS',
       subCategory: ['Tee'],
-      productCode: 'ADAPTIX-IC-T',
+      productCode: 'ADAPTIX-ICF-T',
       mainImage: 'assets/product/IC_CASTING_FITTINGS/Tee.png',
       otherImages: [
       ],
-      description: 'Premium I/C casting tee fitting designed for three-way flow distribution in industrial applications. Features balanced flow characteristics with uniform wall thickness across all three ports. Engineered for optimal flow distribution and minimal pressure loss at junction points.',
+      // description: 'Premium I/C casting tee fitting designed for three-way flow distribution in industrial applications. Features balanced flow characteristics with uniform wall thickness across all three ports. Engineered for optimal flow distribution and minimal pressure loss at junction points.',
       specifications: {
           'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
@@ -305,197 +309,325 @@ export class ProductService {
       }
     },
     {
-      name: 'Cross',
+      name: 'Equal Cross',
       categoryName: 'I/C CASTING FITTINGS',
-      subCategory: ['Cross'],
-      productCode: 'ADAPTIX-IC-CR',
-      mainImage: 'assets/product/IC_CASTING_FITTINGS/Cross.png',
+      subCategory: ['Equal Cross'],
+      productCode: 'ADAPTIX-ICF-EC',
+      mainImage: 'assets/product/IC_CASTING_FITTINGS/Equal Cross.png',
       otherImages: [
       ],
-      description: 'Industrial-grade four-way cross fitting for I/C casting applications requiring multi-directional flow. Features symmetrical design with reinforced junction point for enhanced durability. Engineered for balanced flow distribution across all four ports with minimal turbulence.',
+      // description: 'Industrial-grade four-way cross fitting for I/C casting applications requiring multi-directional flow. Features symmetrical design with reinforced junction point for enhanced durability. Engineered for balanced flow distribution across all four ports with minimal turbulence.',
       specifications: {
-          'Size Range': '1/8" to 4"',
+          'Size Range': '1/8" to 3"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
       }
     },
-    {
-      name: 'Elbow Reducing',
-      categoryName: 'I/C CASTING FITTINGS',
-      subCategory: ['Elbow Reducing'],
-      productCode: 'ADAPTIX-IC-ELR',
-      mainImage: 'assets/product/IC_CASTING_FITTINGS/Elbow Reducing.png',
-      otherImages: [
-      ],
-      description: 'Specialized reducing elbow designed for I/C casting systems requiring both flow direction change and size reduction. Features precision-engineered transition zones for smooth flow reduction while maintaining optimal flow characteristics. Ideal for space-constrained installations requiring compact bends with size adaptation.',
-      specifications: {
-          'Size Range': '1/8" to 4"',
-          'Class': 'ANSI 150 #',
-          'End Connections': 'NPT / BSP',
-          'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
-      }
-    },
-    {
-      name: 'Reducing Cross',
-      categoryName: 'I/C CASTING FITTINGS',
-      subCategory: ['Reducing Cross'],
-      productCode: 'ADAPTIX-IC-RCR',
-      mainImage: 'assets/product/IC_CASTING_FITTINGS/Reducing Cross.png',
-      otherImages: [
-      ],
-      description: 'Advanced four-way reducing cross fitting engineered for multi-directional flow with size adaptation capabilities. Features reinforced junction points and precision-machined reducing sections for optimal flow distribution. Ideal for complex piping systems requiring flow division with size transitions.',
-      specifications: {
-          'Size Range': '1/8" to 4"',
-          'Class': 'ANSI 150 #',
-          'End Connections': 'NPT / BSP',
-          'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
-      }
-    },
+    // {
+    //   name: 'Elbow Reducing',
+    //   categoryName: 'I/C CASTING FITTINGS',
+    //   subCategory: ['Elbow Reducing'],
+    //   productCode: 'ADAPTIX-IC-ELR',
+    //   mainImage: 'assets/product/IC_CASTING_FITTINGS/Elbow Reducing.png',
+    //   otherImages: [
+    //   ],
+    //   description: 'Specialized reducing elbow designed for I/C casting systems requiring both flow direction change and size reduction. Features precision-engineered transition zones for smooth flow reduction while maintaining optimal flow characteristics. Ideal for space-constrained installations requiring compact bends with size adaptation.',
+    //   specifications: {
+    //       'Size Range': '1/8" to 4"',
+    //       'Class': 'ANSI 150 #',
+    //       'End Connections': 'NPT / BSP',
+    //       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
+    //   }
+    // },
+    // {
+    //   name: 'Reducing Cross',
+    //   categoryName: 'I/C CASTING FITTINGS',
+    //   subCategory: ['Reducing Cross'],
+    //   productCode: 'ADAPTIX-IC-RCR',
+    //   mainImage: 'assets/product/IC_CASTING_FITTINGS/Reducing Cross.png',
+    //   otherImages: [
+    //   ],
+    //   description: 'Advanced four-way reducing cross fitting engineered for multi-directional flow with size adaptation capabilities. Features reinforced junction points and precision-machined reducing sections for optimal flow distribution. Ideal for complex piping systems requiring flow division with size transitions.',
+    //   specifications: {
+    //       'Size Range': '1/8" to 4"',
+    //       'Class': 'ANSI 150 #',
+    //       'End Connections': 'NPT / BSP',
+    //       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
+    //   }
+    // },
     {
       name: 'Reducing Tee',
       categoryName: 'I/C CASTING FITTINGS',
       subCategory: ['Reducing Tee'],
-      productCode: 'ADAPTIX-IC-RT',
+      productCode: 'ADAPTIX-ICF-RT',
       mainImage: 'assets/product/IC_CASTING_FITTINGS/Reducing Tee.png',
       otherImages: [
       ],
-      description: 'Specialized reducing tee fitting designed for three-way flow distribution with integrated size reduction. Features streamlined internal geometry for smooth flow transition and minimal pressure loss. Engineered for applications requiring branch line size adaptation.',
+      // description: 'Specialized reducing tee fitting designed for three-way flow distribution with integrated size reduction. Features streamlined internal geometry for smooth flow transition and minimal pressure loss. Engineered for applications requiring branch line size adaptation.',
       specifications: {
-          'Size Range': '1/8" to 4"',
+          'Size Range': '1/2" x 1/4" to 2" x 1.1/2"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
       }
     },
     {
-      name: 'Y Stainer 45',
+      name: 'Y Tee',
       categoryName: 'I/C CASTING FITTINGS',
-      subCategory: ['Y Stainer 45'],
+      subCategory: ['Y Tee'],
       productCode: 'ADAPTIX-IC-YS45',
-      mainImage: 'assets/product/IC_CASTING_FITTINGS/Y Stainer 45.png',
+      mainImage: 'assets/product/IC_CASTING_FITTINGS/Y tee.png',
       otherImages: [
       ],
-      description: 'Industrial-grade Y-pattern strainer with 45-degree configuration for efficient particle removal. Features replaceable straining element and optimized flow path for minimal pressure drop. Designed for superior filtration in process fluid applications.',
+      // description: 'Industrial-grade Y-pattern strainer with 45-degree configuration for efficient particle removal. Features replaceable straining element and optimized flow path for minimal pressure drop. Designed for superior filtration in process fluid applications.',
       specifications: {
-          'Size Range': '1/8" to 4"',
+          'Size Range': '1/8" to 2"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
       }
     },
     {
-      name: 'Street Elbow 90',
+      name: 'Conical Union F/F',
       categoryName: 'I/C CASTING FITTINGS',
-      subCategory: ['Street Elbow 90'],
-      productCode: 'ADAPTIX-IC-SEL90',
-      mainImage: 'assets/product/IC_CASTING_FITTINGS/Street Elbow 90.png',
+      subCategory: ['Conical Union F/F'],
+      productCode: 'ADAPTIX-ICF-CU-F/F',
+      mainImage: 'assets/product/IC_CASTING_FITTINGS/Conical Union FF.png',
       otherImages: [
       ],
-      description: 'Heavy-duty street-pattern 90-degree elbow combining male and female ends for compact installation. Features reinforced wall thickness at bend radius and precision-machined threads. Ideal for space-constrained piping systems requiring right-angle flow direction changes.',
+      // description: 'Industrial-grade Y-pattern strainer with 45-degree configuration for efficient particle removal. Features replaceable straining element and optimized flow path for minimal pressure drop. Designed for superior filtration in process fluid applications.',
       specifications: {
-          'Size Range': '1/8" to 4"',
+          'Size Range': '1/8" to 2"',
+          'Class': 'ANSI 150 #',
+          'End Connections': 'NPT / BSP',
+          'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
+      }
+    },    
+    {
+      name: 'UNION F/F PTFE SEAL',
+      categoryName: 'I/C CASTING FITTINGS',
+      subCategory: ['UNION F/F PTFE SEAL'],
+      productCode: 'ADAPTIX-ICF-UN-F/F-PTFE',
+      mainImage: 'assets/product/IC_CASTING_FITTINGS/Union FF PTFE Seal.png',
+      otherImages: [
+      ],
+      description: '',
+      specifications: {
+          'Size Range': '1/8" to 2"',
+          'Class': 'ANSI 150 #',
+          'End Connections': 'NPT / BSP',
+          'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
+      }
+    }, 
+    {
+      name: 'Conical Union F/M',
+      categoryName: 'I/C CASTING FITTINGS',
+      subCategory: ['Conical Union F/M'],
+      productCode: 'ADAPTIX-ICF-CU-F/M',
+      mainImage: 'assets/product/IC_CASTING_FITTINGS/Conical Union FM.png',
+      otherImages: [
+      ],
+      description: '',
+      specifications: {
+          'Size Range': '1/8" to 2"',
+          'Class': 'ANSI 150 #',
+          'End Connections': 'NPT / BSP',
+          'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
+      }
+    }, 
+    {
+      name: 'Union F/M PTFE Seal',
+      categoryName: 'I/C CASTING FITTINGS',
+      subCategory: ['Union F/M PTFE Seal'],
+      productCode: 'ADAPTIX-ICF-UN-F/M-PTFE',
+      mainImage: 'assets/product/IC_CASTING_FITTINGS/Union FM PTFE Seal.png',
+      otherImages: [
+      ],
+      description: '',
+      specifications: {
+          'Size Range': '1/8" to 2"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
       }
     },
     {
-      name: 'Street Elbow 45',
+      name: 'Hex Nipple',
       categoryName: 'I/C CASTING FITTINGS',
-      subCategory: ['Street Elbow 45'],
-      productCode: 'ADAPTIX-IC-SEL45',
-      mainImage: 'assets/product/IC_CASTING_FITTINGS/Street Elbow 45.png',
+      subCategory: ['Hex Nipple'],
+      productCode: 'ADAPTIX-ICF-HN',
+      mainImage: 'assets/product/IC_CASTING_FITTINGS/Hex Nipple.png',
       otherImages: [
       ],
-      description: 'Precision-engineered 45-degree street elbow with male and female end configuration. Features optimized flow path geometry and enhanced wall thickness for durability. Perfect for installations requiring moderate flow direction changes in limited spaces.',
+      description: '',
       specifications: {
-          'Size Range': '1/8" to 4"',
+          'Size Range': '1/8" to 3"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
       }
     },
     {
-      name: 'Street TEE',
+      name: 'Hex Reduce Nipple',
       categoryName: 'I/C CASTING FITTINGS',
-      subCategory: ['Street TEE'],
-      productCode: 'ADAPTIX-IC-ST',
-      mainImage: 'assets/product/IC_CASTING_FITTINGS/Street TEE.png',
+      subCategory: ['Hex Reduce Nipple'],
+      productCode: 'ADAPTIX-ICF-HRN',
+      mainImage: 'assets/product/IC_CASTING_FITTINGS/Hex Reduce Nipple.png',
       otherImages: [
       ],
-      description: 'Advanced street-pattern tee fitting featuring male and female end combinations for versatile installation. Incorporates reinforced branch connection and balanced flow distribution design. Engineered for three-way flow applications in space-restricted environments.',
+      description: '',
       specifications: {
-          'Size Range': '1/8" to 4"',
+          'Size Range': '1/8" x 1/4" to 4" x 3"',
+          'Class': 'ANSI 150 #',
+          'End Connections': 'NPT / BSP',
+          'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
+      }
+    },    
+    {
+      name: 'Male Weld Hex Nipple',
+      categoryName: 'I/C CASTING FITTINGS',
+      subCategory: ['Male Weld Hex Nipple'],
+      productCode: 'ADAPTIX-ICF-MWHN',
+      mainImage: 'assets/product/IC_CASTING_FITTINGS/Hex Reduce Nipple.png',
+      otherImages: [
+      ],
+      description: '',
+      specifications: {
+          'Size Range': '1/4" to 2"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
       }
     },
     {
-      name: 'Coupling',
+      name: 'Reducing Socket',
       categoryName: 'I/C CASTING FITTINGS',
-      subCategory: ['Coupling'],
-      productCode: 'ADAPTIX-IC-CP',
-      mainImage: 'assets/product/IC_CASTING_FITTINGS/Coupling.png',
+      subCategory: ['Reducing Socket'],
+      productCode: 'ADAPTIX-ICF-RS',
+      mainImage: 'assets/product/IC_CASTING_FITTINGS/Reducing Socket.png',
       otherImages: [
       ],
-      description: 'Premium straight coupling designed for reliable pipe-to-pipe connections. Features precision-machined threads and uniform wall thickness for maximum pressure retention. Engineered with optimal length-to-diameter ratio for secure engagement.',
+      description: '',
       specifications: {
-          'Size Range': '1/8" to 4"',
+          'Size Range': '1/8" x 1/4" to 4" x 3"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
       }
     },
-    {
-      name: 'Reduce Coupling',
-      categoryName: 'I/C CASTING FITTINGS',
-      subCategory: ['Reduce Coupling'],
-      productCode: 'ADAPTIX-IC-RC',
-      mainImage: 'assets/product/IC_CASTING_FITTINGS/Reduce Coupling.png',
-      otherImages: [
-      ],
-      description: 'High-performance reducing coupling engineered for connecting pipes of different sizes. Features smooth internal transition zone and enhanced thread engagement length. Designed for applications requiring secure size adaptation with minimal flow disruption.',
-      specifications: {
-          'Size Range': '1/8" to 4"',
-          'Class': 'ANSI 150 #',
-          'End Connections': 'NPT / BSP',
-          'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
-      }
-    },
-    {
-      name: 'CAP',
-      categoryName: 'I/C CASTING FITTINGS',
-      subCategory: ['CAP'],
-      productCode: 'ADAPTIX-IC-CP',
-      mainImage: 'assets/product/IC_CASTING_FITTINGS/CAP.png',
-      otherImages: [
-      ],
-      description: 'Heavy-duty end cap designed for positive line termination in industrial applications. Features reinforced dome structure and precision-machined threads for maximum pressure containment. Engineered with corrosion-resistant materials for extended service life.',
-      specifications: {
-          'Size Range': '1/8" to 4"',
-          'Class': 'ANSI 150 #',
-          'End Connections': 'NPT / BSP',
-          'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
-      }
-    },
-    {
-      name: 'BENDS',
-      categoryName: 'I/C CASTING FITTINGS',
-      subCategory: ['Bends'],
-      productCode: 'ADAPTIX-IC-BND',
-      mainImage: 'assets/product/IC_CASTING_FITTINGS/Bends.png',
-      otherImages: [
-      ],
-      description: 'Precision-engineered pipe bends featuring controlled wall thickness and optimized bend radius. Manufactured using advanced forming technology for consistent flow characteristics. Designed for smooth flow transition in process piping systems.',
-      specifications: {
-          'Size Range': '1/8" to 4"',
-          'Class': 'ANSI 150 #',
-          'End Connections': 'NPT / BSP',
-          'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
-      }
-    },
+    // {
+    //   name: 'Street Elbow 90',
+    //   categoryName: 'I/C CASTING FITTINGS',
+    //   subCategory: ['Street Elbow 90'],
+    //   productCode: 'ADAPTIX-IC-SEL90',
+    //   mainImage: 'assets/product/IC_CASTING_FITTINGS/Street Elbow 90.png',
+    //   otherImages: [
+    //   ],
+    //   description: 'Heavy-duty street-pattern 90-degree elbow combining male and female ends for compact installation. Features reinforced wall thickness at bend radius and precision-machined threads. Ideal for space-constrained piping systems requiring right-angle flow direction changes.',
+    //   specifications: {
+    //       'Size Range': '1/8" to 4"',
+    //       'Class': 'ANSI 150 #',
+    //       'End Connections': 'NPT / BSP',
+    //       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
+    //   }
+    // },
+    // {
+    //   name: 'Street Elbow 45',
+    //   categoryName: 'I/C CASTING FITTINGS',
+    //   subCategory: ['Street Elbow 45'],
+    //   productCode: 'ADAPTIX-IC-SEL45',
+    //   mainImage: 'assets/product/IC_CASTING_FITTINGS/Street Elbow 45.png',
+    //   otherImages: [
+    //   ],
+    //   description: 'Precision-engineered 45-degree street elbow with male and female end configuration. Features optimized flow path geometry and enhanced wall thickness for durability. Perfect for installations requiring moderate flow direction changes in limited spaces.',
+    //   specifications: {
+    //       'Size Range': '1/8" to 4"',
+    //       'Class': 'ANSI 150 #',
+    //       'End Connections': 'NPT / BSP',
+    //       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
+    //   }
+    // },
+    // {
+    //   name: 'Street TEE',
+    //   categoryName: 'I/C CASTING FITTINGS',
+    //   subCategory: ['Street TEE'],
+    //   productCode: 'ADAPTIX-IC-ST',
+    //   mainImage: 'assets/product/IC_CASTING_FITTINGS/Street TEE.png',
+    //   otherImages: [
+    //   ],
+    //   description: 'Advanced street-pattern tee fitting featuring male and female end combinations for versatile installation. Incorporates reinforced branch connection and balanced flow distribution design. Engineered for three-way flow applications in space-restricted environments.',
+    //   specifications: {
+    //       'Size Range': '1/8" to 4"',
+    //       'Class': 'ANSI 150 #',
+    //       'End Connections': 'NPT / BSP',
+    //       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
+    //   }
+    // },
+    // {
+    //   name: 'Coupling',
+    //   categoryName: 'I/C CASTING FITTINGS',
+    //   subCategory: ['Coupling'],
+    //   productCode: 'ADAPTIX-IC-CP',
+    //   mainImage: 'assets/product/IC_CASTING_FITTINGS/Coupling.png',
+    //   otherImages: [
+    //   ],
+    //   description: 'Premium straight coupling designed for reliable pipe-to-pipe connections. Features precision-machined threads and uniform wall thickness for maximum pressure retention. Engineered with optimal length-to-diameter ratio for secure engagement.',
+    //   specifications: {
+    //       'Size Range': '1/8" to 4"',
+    //       'Class': 'ANSI 150 #',
+    //       'End Connections': 'NPT / BSP',
+    //       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
+    //   }
+    // },
+    // {
+    //   name: 'Reduce Coupling',
+    //   categoryName: 'I/C CASTING FITTINGS',
+    //   subCategory: ['Reduce Coupling'],
+    //   productCode: 'ADAPTIX-IC-RC',
+    //   mainImage: 'assets/product/IC_CASTING_FITTINGS/Reduce Coupling.png',
+    //   otherImages: [
+    //   ],
+    //   description: 'High-performance reducing coupling engineered for connecting pipes of different sizes. Features smooth internal transition zone and enhanced thread engagement length. Designed for applications requiring secure size adaptation with minimal flow disruption.',
+    //   specifications: {
+    //       'Size Range': '1/8" to 4"',
+    //       'Class': 'ANSI 150 #',
+    //       'End Connections': 'NPT / BSP',
+    //       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
+    //   }
+    // },
+    // {
+    //   name: 'CAP',
+    //   categoryName: 'I/C CASTING FITTINGS',
+    //   subCategory: ['CAP'],
+    //   productCode: 'ADAPTIX-IC-CP',
+    //   mainImage: 'assets/product/IC_CASTING_FITTINGS/CAP.png',
+    //   otherImages: [
+    //   ],
+    //   description: 'Heavy-duty end cap designed for positive line termination in industrial applications. Features reinforced dome structure and precision-machined threads for maximum pressure containment. Engineered with corrosion-resistant materials for extended service life.',
+    //   specifications: {
+    //       'Size Range': '1/8" to 4"',
+    //       'Class': 'ANSI 150 #',
+    //       'End Connections': 'NPT / BSP',
+    //       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
+    //   }
+    // },
+    // {
+    //   name: 'BENDS',
+    //   categoryName: 'I/C CASTING FITTINGS',
+    //   subCategory: ['Bends'],
+    //   productCode: 'ADAPTIX-IC-BND',
+    //   mainImage: 'assets/product/IC_CASTING_FITTINGS/Bends.png',
+    //   otherImages: [
+    //   ],
+    //   description: 'Precision-engineered pipe bends featuring controlled wall thickness and optimized bend radius. Manufactured using advanced forming technology for consistent flow characteristics. Designed for smooth flow transition in process piping systems.',
+    //   specifications: {
+    //       'Size Range': '1/8" to 4"',
+    //       'Class': 'ANSI 150 #',
+    //       'End Connections': 'NPT / BSP',
+    //       'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
+    //   }
+    // },
     // {
     //   name: '45 Deg Elbow',
     //   categoryName: 'BUT WELD END FITTINGS',
