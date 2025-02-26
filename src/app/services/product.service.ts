@@ -266,7 +266,7 @@ export class ProductService {
       ],
       description: 'High-precision 45-degree elbow fitting optimized for moderate flow direction changes in industrial and commercial casting systems. Features seamless construction with uniform wall thickness and precise 45-degree angle consistency. Engineered for minimal flow resistance and pressure drop in I/C applications.',
       specifications: {
-          'Size Range': '1/8" to 6"',
+          'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
@@ -282,7 +282,7 @@ export class ProductService {
       ],
       description: 'High-precision 90-degree elbow fitting designed for right-angle flow direction changes in industrial and commercial applications. Features seamless construction with uniform wall thickness and precise 90-degree angle consistency. Engineered for minimal flow resistance and pressure drop in I/C casting systems.',
       specifications: {
-          'Size Range': '1/8" to 6"',
+          'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
@@ -298,7 +298,7 @@ export class ProductService {
       ],
       description: 'Premium I/C casting tee fitting designed for three-way flow distribution in industrial applications. Features balanced flow characteristics with uniform wall thickness across all three ports. Engineered for optimal flow distribution and minimal pressure loss at junction points.',
       specifications: {
-          'Size Range': '1/8" to 6"',
+          'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
@@ -314,7 +314,7 @@ export class ProductService {
       ],
       description: 'Industrial-grade four-way cross fitting for I/C casting applications requiring multi-directional flow. Features symmetrical design with reinforced junction point for enhanced durability. Engineered for balanced flow distribution across all four ports with minimal turbulence.',
       specifications: {
-          'Size Range': '1/8" to 6"',
+          'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
@@ -330,7 +330,7 @@ export class ProductService {
       ],
       description: 'Specialized reducing elbow designed for I/C casting systems requiring both flow direction change and size reduction. Features precision-engineered transition zones for smooth flow reduction while maintaining optimal flow characteristics. Ideal for space-constrained installations requiring compact bends with size adaptation.',
       specifications: {
-          'Size Range': '1/8" to 6"',
+          'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
@@ -346,7 +346,7 @@ export class ProductService {
       ],
       description: 'Advanced four-way reducing cross fitting engineered for multi-directional flow with size adaptation capabilities. Features reinforced junction points and precision-machined reducing sections for optimal flow distribution. Ideal for complex piping systems requiring flow division with size transitions.',
       specifications: {
-          'Size Range': '1/8" to 6"',
+          'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
@@ -362,7 +362,7 @@ export class ProductService {
       ],
       description: 'Specialized reducing tee fitting designed for three-way flow distribution with integrated size reduction. Features streamlined internal geometry for smooth flow transition and minimal pressure loss. Engineered for applications requiring branch line size adaptation.',
       specifications: {
-          'Size Range': '1/8" to 6"',
+          'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
@@ -378,7 +378,7 @@ export class ProductService {
       ],
       description: 'Industrial-grade Y-pattern strainer with 45-degree configuration for efficient particle removal. Features replaceable straining element and optimized flow path for minimal pressure drop. Designed for superior filtration in process fluid applications.',
       specifications: {
-          'Size Range': '1/8" to 6"',
+          'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
@@ -394,7 +394,7 @@ export class ProductService {
       ],
       description: 'Heavy-duty street-pattern 90-degree elbow combining male and female ends for compact installation. Features reinforced wall thickness at bend radius and precision-machined threads. Ideal for space-constrained piping systems requiring right-angle flow direction changes.',
       specifications: {
-          'Size Range': '1/8" to 6"',
+          'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
@@ -410,7 +410,7 @@ export class ProductService {
       ],
       description: 'Precision-engineered 45-degree street elbow with male and female end configuration. Features optimized flow path geometry and enhanced wall thickness for durability. Perfect for installations requiring moderate flow direction changes in limited spaces.',
       specifications: {
-          'Size Range': '1/8" to 6"',
+          'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
@@ -426,7 +426,7 @@ export class ProductService {
       ],
       description: 'Advanced street-pattern tee fitting featuring male and female end combinations for versatile installation. Incorporates reinforced branch connection and balanced flow distribution design. Engineered for three-way flow applications in space-restricted environments.',
       specifications: {
-          'Size Range': '1/8" to 6"',
+          'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
@@ -442,7 +442,7 @@ export class ProductService {
       ],
       description: 'Premium straight coupling designed for reliable pipe-to-pipe connections. Features precision-machined threads and uniform wall thickness for maximum pressure retention. Engineered with optimal length-to-diameter ratio for secure engagement.',
       specifications: {
-          'Size Range': '1/8" to 6"',
+          'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
@@ -458,7 +458,7 @@ export class ProductService {
       ],
       description: 'High-performance reducing coupling engineered for connecting pipes of different sizes. Features smooth internal transition zone and enhanced thread engagement length. Designed for applications requiring secure size adaptation with minimal flow disruption.',
       specifications: {
-          'Size Range': '1/8" to 6"',
+          'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
@@ -474,7 +474,7 @@ export class ProductService {
       ],
       description: 'Heavy-duty end cap designed for positive line termination in industrial applications. Features reinforced dome structure and precision-machined threads for maximum pressure containment. Engineered with corrosion-resistant materials for extended service life.',
       specifications: {
-          'Size Range': '1/8" to 6"',
+          'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
@@ -490,7 +490,7 @@ export class ProductService {
       ],
       description: 'Precision-engineered pipe bends featuring controlled wall thickness and optimized bend radius. Manufactured using advanced forming technology for consistent flow characteristics. Designed for smooth flow transition in process piping systems.',
       specifications: {
-          'Size Range': '1/8" to 6"',
+          'Size Range': '1/8" to 4"',
           'Class': 'ANSI 150 #',
           'End Connections': 'NPT / BSP',
           'M.O.C': 'CS / AS / SS / DSS / SDSS / SASS / MONEL / HASTELLOY / INCONEL'
