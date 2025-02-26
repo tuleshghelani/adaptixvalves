@@ -58,7 +58,7 @@
             <span class="spec-label">Brand:</span>
             <span class="spec-value">Adaptix</span>
           </div>
-          <div class="spec-item">
+          <div class="spec-item" *ngIf="product?.productCode">
             <span class="spec-label">Product Code:</span>
             <span class="spec-value">{{product?.productCode}}</span>
           </div>
