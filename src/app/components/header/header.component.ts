@@ -36,10 +36,10 @@ export class HeaderComponent implements OnInit {
       name: 'I/C CASTING FITTINGS',
       isActive: false,
       subItems: [
-        '45 Elbow', '90 Elbow', 'Tee', 'Cross',
-        'Elbow Reducing', 'Reducing Cross', 'Reducing Tee', 'Y Stainer 45',
-        'Street Elbow 90', 'Street Elbow 45', 'Street TEE',
-        'Coupling', 'Reduce Coupling','CAP'
+        'ELBOW - 45 - F/F', 'ELBOW - 90 - F/F', 'Tee', 'Equal Cross',
+        // 'Elbow Reducing', 'Reducing Cross', 
+        'Reducing Tee', 'Y Tee',
+        'Conical Union F/F','Union F/F PTFE Seal' , 'Conical Union F/M', 'Union F/M PTFE Seal', 'Hex Nipple', 'Hex Reduce Nipple', 'Male Weld Hex Nipple', 'Reducing Socket',
       ]
     },
     // {
