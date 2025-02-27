@@ -156,7 +156,7 @@ export class CatelogueComponent {
   ];
 
   downloadCatalogue() {
-    const pdfUrl = 'assets/catelogue/Adaptix_Valves_Product_Catalog.pdf';
+    const pdfUrl = 'assets/catelogue/Product_Catalog.pdf';
     window.open(pdfUrl, '_blank');
   }
 }
