@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Adaptix Valves and Fittings LTD';
+  title = 'Adaptix Valves and Fittings ';
 
   constructor(private scrollService: ScrollService) {}
 
