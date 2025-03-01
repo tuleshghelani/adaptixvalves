@@ -24,9 +24,9 @@ export class HomeComponent implements OnInit, OnDestroy {
     },
     {
       image: 'assets/Slider/2.jpeg',
-      alt: 'Pipe Fittings',
+      alt: 'Valves and Fittings',
       title: 'Engineered For Every Fittings',
-      description: 'Expert solutions in pipe fittings with premium materials and precise engineering for all your industrial connectivity needs.',
+      description: 'Expert solutions in valves and fittings with premium materials and precise engineering for all your industrial connectivity needs.',
       link: '/products/fittings'
     },
     // {

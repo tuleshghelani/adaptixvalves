@@ -87,31 +87,31 @@ export class ProductService {
         'Lap Joint Flanges'
       ]
     },
-    {
-      id: 'pipe-fittings',
-      name: 'PIPE FITTINGS',
-      isExpanded: true,
-      subProducts: [
-        'Male Tee', 'Female Tee', 'Male Run Tee', 'Female Run Tee',
-        'Male Branch Tee', 'Female Branch Tee', '90 Male Elbow', '90 Female Elbow',
-        'Female Cross(Hex.Th)', 'Female Cross(Round Th)', 'Pipe Plug', 'Pipe Plug',
-        'Full Coupling', 'Half Coupling', 'Reducing Coupling', 'Reducing Bushing',
-        'Pipe Union 3PC (Hex.Th)', 'Pipe Union 3PC (Round.Sh)', 'Male Adaptor', 'Female Adaptor',
-        'Reducer Swage Nipple (Round - BW)', 'Reducer Swage Nipple (Round - TH)', 'Breather',
-        'Hix Nipple', 'Pipe Nipple (PL x TH)', 'Pipe Nipple (PL x PL)', 'Pipe Nipple (TH x TH)',
-      ]
-    },
-    {
-      id: 'tube-fittings',
-      name: 'TUBE FITTINGS',
-      isExpanded: false,
-      subProducts: [
-        'Male Connector', 'Female Connector', 'Adapter', 'Plug',
-        'Union Tee', 'Run Tee', 'Female Tee', 'Union',
-        'Reducing Union', 'Bulkhead Union', 'Tube Elbow',
-        'OD Cap', 'OD Plug', 'Hex Nipple'
-      ]
-    },
+    // {
+    //   id: 'pipe-fittings',
+    //   name: 'PIPE FITTINGS',
+    //   isExpanded: true,
+    //   subProducts: [
+    //     'Male Tee', 'Female Tee', 'Male Run Tee', 'Female Run Tee',
+    //     'Male Branch Tee', 'Female Branch Tee', '90 Male Elbow', '90 Female Elbow',
+    //     'Female Cross(Hex.Th)', 'Female Cross(Round Th)', 'Pipe Plug', 'Pipe Plug',
+    //     'Full Coupling', 'Half Coupling', 'Reducing Coupling', 'Reducing Bushing',
+    //     'Pipe Union 3PC (Hex.Th)', 'Pipe Union 3PC (Round.Sh)', 'Male Adaptor', 'Female Adaptor',
+    //     'Reducer Swage Nipple (Round - BW)', 'Reducer Swage Nipple (Round - TH)', 'Breather',
+    //     'Hix Nipple', 'Pipe Nipple (PL x TH)', 'Pipe Nipple (PL x PL)', 'Pipe Nipple (TH x TH)',
+    //   ]
+    // },
+    // {
+    //   id: 'tube-fittings',
+    //   name: 'TUBE FITTINGS',
+    //   isExpanded: false,
+    //   subProducts: [
+    //     'Male Connector', 'Female Connector', 'Adapter', 'Plug',
+    //     'Union Tee', 'Run Tee', 'Female Tee', 'Union',
+    //     'Reducing Union', 'Bulkhead Union', 'Tube Elbow',
+    //     'OD Cap', 'OD Plug', 'Hex Nipple'
+    //   ]
+    // },
   ];
 
   private productDetails: ProductDetail[] = [
@@ -1177,7 +1177,7 @@ export class ProductService {
     }
   },
   
-  {
+  /*{
     name: 'Male Tee',
     categoryName: 'PIPE FITTINGS',
     subCategory: ['Male Tee'],
@@ -1625,8 +1625,8 @@ export class ProductService {
       'End Connection Size': 'NPT / BSPP / BSPT / METRIC / UNF / SW / BW',
       'Pressure':  'Upto 6000 psi'
     }
-  },
-  {
+  },*/
+  /*{
     name: 'Male Connector',
     categoryName: 'TUBE FITTINGS',
     subCategory: ['Male Connector'],
@@ -1891,7 +1891,7 @@ export class ProductService {
         'Manufacturing': 'Hot forged process',
         'Quality Control': '100% pressure tested'
     }
-  },
+  },*/
   // {
   //   name: 'Olet flanges',
   //   categoryName: 'FLANGES',

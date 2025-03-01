@@ -97,7 +97,7 @@ export class HeaderComponent implements OnInit {
         'Lap Joint Flanges',
       ]
     },
-    {
+    /*{
       name: 'PIPE FITTINGS',
       isActive: false,
       subItems: [
@@ -129,7 +129,7 @@ export class HeaderComponent implements OnInit {
         'OD Plug',
         'Hex Nipple'
       ]
-    },
+    },*/
   ];
 
   constructor(private router: Router) {
