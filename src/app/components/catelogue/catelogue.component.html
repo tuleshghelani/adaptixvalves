@@ -1,0 +1,192 @@
+<section class="catalogue-section">    
+    <br>
+    <div class="hero-banner">
+        <div class="hero-content">
+        </div>
+    </div>
+    <div class="container mx-auto px-4 py-12">
+      <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-primary mb-4">Our Premium Catalogue</h1>
+        <p class="text-lg text-gray-600">Discover Our Extensive Range of High-Quality Industrial Valves and Fittings.</p>
+      </div>
+
+      <div class="catalogue-grid-main">
+        <div class="catalogue-card-main" [ngClass]="">
+          <div class="relative pb-[75%] overflow-hidden">
+            <img src="assets/catelogue/NEOMAT BROCHURE FINAL UK MOCKUP.png" 
+                alt="NEOMAT BROCHURE FINAL UK MOCKUP" 
+                loading="lazy"
+                class="absolute inset-0 w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold mt-2 mb-3">PRODUCT CATALOGUE</h3>
+            <button (click)="downloadCatalogue()" class="mt-4 bg-primary-color text-white px-6 py-2 rounded-full hover:bg-primary-color-light transition-colors duration-300">
+              Download Now
+            </button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="catalogue-grid">
+        <ng-container *ngFor="let item of catalogueItems; let i = index">
+          <div class="catalogue-card" [ngClass]="{'last-item': i === catalogueItems.length - 1 && catalogueItems.length % 3 === 1}">
+            <div class="relative pb-[75%] overflow-hidden">
+              <img [src]="item.image" 
+                   [alt]="item.title" 
+                   loading="lazy"
+                   class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold mt-2 mb-3">{{item.title}}</h3>
+              <button (click)="openEnquiryForm(item)" class="mt-4 bg-primary-color text-white px-6 py-2 rounded-full hover:bg-primary-color-light transition-colors duration-300">
+                Enquiry Now
+              </button>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+</section>
+
+  <!-- <section class="enquiry-table-section">
+    <div class="container mx-auto px-4 py-12">
+        <div class="text-center mb-8">
+            <h2 class="text-3xl font-bold text-primary mb-4">Enquiries</h2>
+            <input type="text" placeholder="Search..." (input)="onSearch($event)" class="search-input">
+        </div>
+        <table class="min-w-full bg-white">
+            <thead>
+                <tr>
+                    <th class="py-2">Name</th>
+                    <th class="py-2">Company Name</th>
+                    <th class="py-2">Email</th>
+                    <th class="py-2">Mobile Number</th>
+                    <th class="py-2">Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let enquiry of filteredEnquiries">
+                    <td class="py-2">{{enquiry.name}}</td>
+                    <td class="py-2">{{enquiry.company_name}}</td>
+                    <td class="py-2">{{enquiry.email}}</td>
+                    <td class="py-2">{{enquiry.mobilenumber}}</td>
+                    <td class="py-2">{{enquiry.address}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section> -->
+
+<!-- Enquiry Form Popup -->
+<div class="popup-overlay" *ngIf="showEnquiryForm" (click)="closeEnquiryForm()">
+    <div class="popup-content" (click)="$event.stopPropagation()">
+      <div class="popup-header">
+        <h2>Catalogue</h2>
+        <button class="close-btn" (click)="closeEnquiryForm()">&times;</button>
+      </div>
+      
+      <form [formGroup]="enquiryForm" (ngSubmit)="submitEnquiry()" class="enquiry-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input 
+            type="text" 
+            id="name" 
+            formControlName="name" 
+            placeholder="Enter your full name"
+            [class.error]="isFieldInvalid('name')">
+          <div class="error-message" *ngIf="isFieldInvalid('name')">
+            Please enter your name
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input 
+            type="email" 
+            id="email" 
+            formControlName="email" 
+            placeholder="Enter your email"
+            [class.error]="isFieldInvalid('email')">
+          <div class="error-message" *ngIf="isFieldInvalid('email')">
+            Please enter a valid email address
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="country">Country</label>
+          <select 
+            id="country" 
+            formControlName="country" 
+            [class.error]="isFieldInvalid('country')"
+            class="country-select">
+            <option value="">Select your country</option>
+            <option *ngFor="let country of countries" [value]="country.dialCode">
+              {{country.name}} ({{country.dialCode}})
+            </option>
+          </select>
+          <div class="error-message" *ngIf="isFieldInvalid('country')">
+            Please select your country
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="mobile">Mobile Number</label>
+          <input 
+            type="tel" 
+            id="mobilenumber" 
+            formControlName="mobilenumber" 
+            placeholder="Enter your mobile number"
+            [class.error]="isFieldInvalid('mobilenumber')">
+          <div class="error-message" *ngIf="isFieldInvalid('mobilenumber')">
+            Please enter a valid mobile number
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="mobile">Comany Name</label>
+          <input 
+            type="text" 
+            id="company_name" 
+            formControlName="company_name" 
+            placeholder="Enter your company name"
+            [class.error]="isFieldInvalid('company_name')">
+          <div class="error-message" *ngIf="isFieldInvalid('company_name')">
+            Please enter a valid company name
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="designation">Designation</label>
+          <input 
+            type="text" 
+            id="designation" 
+            formControlName="designation" 
+            placeholder="Enter your designation"
+            [class.error]="isFieldInvalid('designation')">
+          <div class="error-message" *ngIf="isFieldInvalid('designation')">
+            Please enter a valid designation
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="address">Address</label>
+          <textarea 
+            id="address" 
+            formControlName="address" 
+            placeholder="Enter your address"
+            rows="3"
+            [class.error]="isFieldInvalid('address')"></textarea>
+          <div class="error-message" *ngIf="isFieldInvalid('address')">
+            Please enter your address
+          </div>
+        </div>
+  
+        <div class="form-actions">
+          <button type="submit" class="submit-btn" [disabled]="enquiryForm.invalid || isSubmitting">
+            <span *ngIf="!isSubmitting">Submit Enquiry</span>
+            <span *ngIf="isSubmitting">Submitting...</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
