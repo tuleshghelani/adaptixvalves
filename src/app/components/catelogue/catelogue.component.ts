@@ -139,20 +139,20 @@ export class CatelogueComponent {
       image: 'assets/catelogue/FLANGE FITTINGS MOCKUP.png',
       category: 'Designer'
     },
-    // {
-    //   id: 5,
-    //   title: 'PIPE FITTINGS - DIMENSIONAL CATALOGUE',
-    //   description: 'Discover our exclusive range of premium materials',
-    //   image: 'assets/catelogue/PIPE FITTINGS MOCKUP.png',
-    //   category: 'Premium'
-    // },
-    // {
-    //   id: 7,
-    //   title: 'TUBE FITTINGS - DIMENSIONAL CATALOGUE',
-    //   description: 'Timeless elegance for every project',
-    //   image: 'assets/catelogue/TUBE FITTINGS MOCKUP.png',
-    //   category: 'Classic'
-    // },
+    {
+      id: 5,
+      title: 'PIPE FITTINGS - DIMENSIONAL CATALOGUE',
+      description: 'Discover our exclusive range of premium materials',
+      image: 'assets/catelogue/PIPE FITTINGS MOCKUP.png',
+      category: 'Premium'
+    },
+    {
+      id: 7,
+      title: 'TUBE FITTINGS - DIMENSIONAL CATALOGUE',
+      description: 'Timeless elegance for every project',
+      image: 'assets/catelogue/TUBE FITTINGS MOCKUP.png',
+      category: 'Classic'
+    },
   ];
 
   downloadCatalogue() {
