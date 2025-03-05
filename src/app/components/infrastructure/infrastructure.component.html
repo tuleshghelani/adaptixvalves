@@ -1,0 +1,35 @@
+<div class="infrastructure-banner">
+    <div class="banner-overlay">
+      <div class="banner-content" data-aos="fade-up" data-aos-duration="1000">
+        <h1>Infrastructure</h1>
+        <p>We specialize in delivering high-quality industrial solutions with our expert team dedicated to the Design & Development.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="infrastructure-section">
+    <div class="infrastructure-container">
+      <div class="section-header" data-aos="fade-up" data-aos-duration="1000">
+        <h2>Our Infrastructure</h2>
+        <p>Our state-of-the-art infrastructure is designed to meet the highest standards of quality and efficiency. With a focus on innovation and sustainability, we are committed to providing the best possible products and services to our clients.</p>
+      </div>
+  
+      <div class="infrastructure-grid">
+        <div class="infrastructure-card neumorphic" *ngFor="let infrastructure of infrastructures" 
+             data-aos="fade-up" 
+             data-aos-duration="1000">
+          <div class="infrastructure-image">
+            <img [src]="infrastructure.image" [alt]="infrastructure.name" loading="lazy">
+            <div class="overlay">
+              <div class="infrastructure-name">{{ infrastructure.name }}</div>
+            </div>
+          </div>
+          <div class="infrastructure-content">
+            <h3>{{ infrastructure.name }}</h3>
+            <p>{{ infrastructure.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
