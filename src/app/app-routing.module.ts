@@ -6,6 +6,7 @@ import { IndustriesComponent } from './components/industries/industries.componen
 import { ProductsComponent } from './components/products/products.component';
 import { QualityComponent } from './components/quality/quality.component';
 import { ProcessComponent } from './components/process/process.component';
+import { InfrastructureComponent } from './components/infrastructure/infrastructure.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },  // Default route
@@ -20,6 +21,7 @@ const routes: Routes = [
   },
   { path: 'quality', component: QualityComponent }, 
   { path: 'process', component: ProcessComponent },
+  { path: 'infrastructure', component: InfrastructureComponent },
   // { path: '**', redirectTo: '' }  // Wildcard route for 404
 ];
 
