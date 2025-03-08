@@ -682,6 +682,27 @@ $hover-color: #17a3de;
 
   .category-item {
     position: relative;
+    list-style-type: none;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 8px;
+      height: 8px;
+      background-color: var(--primary-color);
+      border-radius: 50%;
+      margin-left: -4px;
+      opacity: 1;
+      transition: transform 0.3s ease;
+    }
+
+    &:hover::before,
+    &.active::before {
+      transform: scale(1.2);
+    }
 
     .category-link {
       display: flex;
@@ -692,6 +713,7 @@ $hover-color: #17a3de;
       text-decoration: none;
       transition: all 0.3s ease;
       border-radius: 4px;
+      padding-left: 20px;
 
       &:hover {
         background: rgba(23, 163, 222, 0.1);
@@ -729,6 +751,9 @@ $hover-color: #17a3de;
   box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1);
 
   .sub-categories {
+    
+    list-style-type: none;
+    
     li {
       a {
         display: block;
