@@ -38,7 +38,7 @@
                   <div class="sub-menu" [class.active]="category.isActive">
                     <ul class="sub-categories">
                       <li *ngFor="let subItem of category.subItems">
-                        <a href="#" (click)="toggleSubMenu(category, $event, subItem)">{{ subItem }}</a>
+                        <a class="sub-category-link" href="#" (click)="toggleSubMenu(category, $event, subItem)">{{ subItem }}</a>
                       </li>
                     </ul>
                   </div>
